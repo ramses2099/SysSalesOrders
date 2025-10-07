@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysSalesOrders.Domain", "Sy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysSalesOrders.Infrastructure", "SysSalesOrders.Infrastructure\SysSalesOrders.Infrastructure.csproj", "{FAA9944E-3D9B-40E1-A9AE-FB10FE03E544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysSalesOrders.Application", "SysSalesOrders.Application\SysSalesOrders.Application.csproj", "{F7BD9256-AA6B-481E-9B4F-734C4FDC6EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FAA9944E-3D9B-40E1-A9AE-FB10FE03E544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA9944E-3D9B-40E1-A9AE-FB10FE03E544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA9944E-3D9B-40E1-A9AE-FB10FE03E544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BD9256-AA6B-481E-9B4F-734C4FDC6EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BD9256-AA6B-481E-9B4F-734C4FDC6EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BD9256-AA6B-481E-9B4F-734C4FDC6EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BD9256-AA6B-481E-9B4F-734C4FDC6EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

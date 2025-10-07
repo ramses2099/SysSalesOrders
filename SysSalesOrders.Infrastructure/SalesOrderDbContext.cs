@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SysSalesOrders.Infrastructure.Models;
+using SysSalesOrders.Domain;
 
 namespace SysSalesOrders.Infrastructure
 {

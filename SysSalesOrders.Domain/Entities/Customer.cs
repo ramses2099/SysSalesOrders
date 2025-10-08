@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysSalesOrders.Domain
+namespace SysSalesOrders.Domain.Entities
 {
     public class Customer
     {
@@ -13,6 +13,6 @@ namespace SysSalesOrders.Domain
         public string LastName { get; set; }= string.Empty;
         public string PhoneNumber { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

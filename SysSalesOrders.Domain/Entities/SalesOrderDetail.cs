@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysSalesOrders.Domain
+namespace SysSalesOrders.Domain.Entities
 {
     public class SalesOrderDetail
     {
@@ -16,6 +16,6 @@ namespace SysSalesOrders.Domain
         public decimal SubTotal { get; set; }
         public decimal TotalTax { get; set; }
         public decimal Total { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

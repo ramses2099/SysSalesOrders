@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysSalesOrders.Domain
+namespace SysSalesOrders.Domain.Entities
 {
     public class PaymentMethod
     {
         public int PaymMethId { get; set; }
         public string Description { get; set; } = string.Empty;      
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     }
 }

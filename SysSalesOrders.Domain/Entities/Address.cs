@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysSalesOrders.Domain
+namespace SysSalesOrders.Domain.Entities
 {
     public class Address
     {
@@ -14,6 +14,6 @@ namespace SysSalesOrders.Domain
         public string State { get; set; } = string.Empty;
         public string City { get; set; } = string.Empty;
         public string ZipCode { get; set; } = string.Empty;
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

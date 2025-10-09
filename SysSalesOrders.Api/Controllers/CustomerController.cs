@@ -25,7 +25,6 @@ namespace SysSalesOrders.Api.Controllers
             return Ok(result);
         }
 
-
         [HttpGet("")]
         public async Task<IActionResult> GetallCustomer()
         {

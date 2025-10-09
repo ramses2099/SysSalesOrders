@@ -5,6 +5,7 @@ using SysSalesOrders.Domain.Interfaces;
 using SysSalesOrders.Domain.Options;
 using SysSalesOrders.Infrastructure.Data;
 using SysSalesOrders.Infrastructure.Repositories;
+using SysSalesOrders.Infrastructure.Services;
 
 
 namespace SysSalesOrders.Infrastructure
@@ -21,6 +22,11 @@ namespace SysSalesOrders.Infrastructure
             });
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IExternalVendorRepository, ExternalVendorRepository>();
+
+            services.AddHttpClient<JsonPlaceHolderHttpClientService>(option => {
+                option.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/");
+            });
 
             return services;
         }
